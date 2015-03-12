@@ -1,0 +1,20 @@
+{
+  "name": "angular-websocket-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register --check-leaks -R spec spec/test.js"
+  },
+  "author": "Simone Vittori <hi+npm@simonewebdesign.it>",
+  "license": "Unlicense",
+  "devDependencies": {
+    "angular2": "^2.0.0-alpha.12",
+    "babel": "^4.6.6",
+    "babelify": "^5.0.4",
+    "chai": "^2.1.0",
+    "gulp-babel": "^4.0.0",
+    "gulp-browserify": "^0.5.1",
+    "mocha": "^2.1.0"
+  }
+}
